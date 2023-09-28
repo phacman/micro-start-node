@@ -1,0 +1,31 @@
+{
+  "name": "micro-start-node",
+  "version": "1.0.0",
+  "description": "Simple microservice with Node.js Vanilla and TypeScript",
+  "keywords": ["nodejs", "vanilla", "typescript", "node", "microservice"],
+  "main": "dist/index.js",
+  "scripts": {
+    "nodemon": "nodemon src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p .",
+    "lint": "eslint . --fix --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phacman@yandex.ru",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mime": "^3.0.2",
+    "@types/node": "^20.7.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mime": "^3.0.0"
+  }
+}
