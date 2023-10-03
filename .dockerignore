@@ -1,0 +1,19 @@
+# Logs & Temp
+*.log
+*.md
+
+# git
+**/.git/
+**/.gitignore
+**/.gitmodules
+
+# docker
+**/Dockerfile
+**/.dockerignore
+
+# configuration files
+.gitlab-ci.yml
+.idea
+
+# nodejs
+node_modules
